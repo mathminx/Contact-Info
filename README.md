@@ -3,4 +3,16 @@
 This is a simple landing page built using using HTML and CSS. It includes a form to collect visitor contact information. 
 
 
+## Installation
 
+The webpage is deployed via GitHub Pages.
+
+
+## License
+
+MIT License
+
+
+## Badges
+
+![alt text](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white) ![alt text]( https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
