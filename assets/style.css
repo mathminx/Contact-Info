@@ -1,0 +1,114 @@
+:root {
+  --bottom:  #dbeba2;
+  --leftright: #c6d493; 
+  --top: #b8c58a;
+}
+
+body {
+  background-color: cornflowerblue;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+main {
+  width: 100%
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+img {
+  box-sizing:border-box;
+  border:solid 5px;
+  border-bottom-color:rgb(245, 245, 227); 
+  border-left-color:#eed;
+  border-right-color:#eed;
+  border-top-color:#ccb;
+  width:349.5px;
+  height:300;
+  margin: 0;
+}
+
+.frame {
+  /* mat colour */
+  background-color:white;
+
+  /* frame */
+  border:solid 5vmin #eee;
+  border-bottom-color: var(--bottom);
+  border-left-color:var(--leftright);
+  border-radius:2px;
+  border-right-color:var(--leftright);
+  border-top-color:var(--top);
+
+  /* shadow */
+  box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 10px rgba(0,0,0,.25);
+  
+  box-sizing:border-box;
+  width: max-content;
+  margin: auto;
+  padding:7vmin;
+  position:relative;
+  text-align:center;
+  &:before {
+    border-radius:2px;
+    bottom:-2vmin;
+    box-shadow:0 3px 5px 5px rgba(0,0,0,.25) inset;
+    content:"";
+    left:-2vmin;
+    position:absolute;
+    right:-2vmin;
+    top:-2vmin;
+  }
+  &:after {
+    border-radius:2px;
+    bottom:-2.5vmin;
+    box-shadow: 0 3px 5px 5px rgba(0,0,0,.25);
+    content:"";
+    left:-2.5vmin;
+    position:absolute;
+    right:-2.5vmin;
+    top:-2.5vmin;
+  }
+}
+
+.form-box {
+  width:fit-content;
+  margin:auto;
+}
+
+
+label {
+  text-align:start
+}
+
+input, button {
+  display: block;
+}
+
+label {
+  font-size: large;
+} 
+
+input {
+  margin-bottom: 20px;
+  padding: 5px;
+  border: 2px black solid;
+}  
+
+button {
+  background-color: white;
+  padding: 5px 15px; 
+  margin:auto;
+}
+
+footer {
+  padding-top: 10px;
+}
