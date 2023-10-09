@@ -10,7 +10,9 @@ The webpage is deployed via GitHub Pages.
 
 ## License
 
-MIT License
+This project is licensed under the terms of the MIT license.
+
+![License: ](https://img.shields.io/badge/License-MIT-blueviolet.svg)
 
 
 ## Badges
