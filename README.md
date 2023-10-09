@@ -2,6 +2,8 @@
 
 This is a simple landing page built using using HTML and CSS. It includes a form to collect visitor contact information. 
 
+![image](https://github.com/mathminx/Contact-Info/assets/122234007/940cb978-2b64-445f-a5ae-02a805eb9b84)
+
 
 ## Installation
 
